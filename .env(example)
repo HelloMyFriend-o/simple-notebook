@@ -1,0 +1,5 @@
+PG_NAME = name
+PG_USER = user
+PG_PASS = password
+PG_HOST = host
+PG_PORT = port
