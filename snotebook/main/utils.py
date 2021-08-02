@@ -15,7 +15,7 @@ class DataMixin(LoginRequiredMixin):
 
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['filtered_notes_by_user_id'] = Notes.objects.filter(user_id=self.request.user)
+        context['filtered_notes_by_user_id'] = Notes.objects.filter(user_id=self.request.user).order_by('-id')
         # Check if the object is passed
         if kwargs:
             if not self.is_user_valid():
