@@ -21,9 +21,15 @@ pip install -r requirements.txt
 cd snotebook
 ```
 
-8. Запустите приложение:
+8. Создайте миграции приложения для БД
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+9. Запустите приложение:
 ```bash
 python manage.py runserver
 ```
 
-9. Приложение будет доступно по адресу: http://127.0.0.1:8000/
+10. Приложение будет доступно по адресу: http://127.0.0.1:8000/
