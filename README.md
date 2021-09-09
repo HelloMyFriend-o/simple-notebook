@@ -1,6 +1,6 @@
 # Записная книжка
 
-1. Склонируйте репозиторий с помощью git
+1. Склонируйте репозиторий с помощью git:
 ```bash
 git clone https://github.com/HelloMyFriend-o/simple-notebook.git
 ```
@@ -21,7 +21,7 @@ pip install -r requirements.txt
 cd snotebook
 ```
 
-8. Создайте миграции приложения для БД
+8. Создайте миграции приложения для БД:
 ```bash
 python manage.py makemigrations
 python manage.py migrate
