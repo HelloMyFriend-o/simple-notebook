@@ -1,35 +1,35 @@
 # Записная книжка
 
-1. Склонируйте репозиторий с помощью git:
+1. Clone the repository:
 ```bash
 git clone https://github.com/HelloMyFriend-o/simple-notebook.git
 ```
-2. Создайте и активируйте виртуальное окружение
+2. Create and activate a virtual environment
 
-3. Установите зависимости из файла **requirements.txt**:
+3. Install dependencies from file ***requirements.txt***:
 ```bash
 pip install -r requirements.txt
 ```
-4. Переименуйте файл **.env(example)** в **.env**
+4. Rename the file from ***.env(example)*** to ***.env***
 
-5. Сгенерируйте Django SECRET_KEY (например тут: djecrety.ir) и присвойте соответствующей переменной в файле **.env**
+5. Generate Django SECRET_KEY (например тут: djecrety.ir) and fill in the corresponding variable in the file ***.env***
 
-6. Создайте БД PostgreSQL и заполните соответствующие переменные в файле **.env**
+6. Create DB PostgreSQL and fill in the corresponding variables in the file ***.env***
 
-7. Перейдите в папку:
+7. Go to folder:
 ```bash
 cd snotebook
 ```
 
-8. Создайте миграции приложения для БД:
+8. Create application migrations:
 ```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-9. Запустите приложение:
+9. Run the app:
 ```bash
 python manage.py runserver
 ```
 
-10. Приложение будет доступно по адресу: http://127.0.0.1:8000/
+10. The application will be available at: http://127.0.0.1:8000/
