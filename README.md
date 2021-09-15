@@ -1,4 +1,4 @@
-# Записная книжка
+# Notebook
 
 1. Clone the repository:
 ```bash
