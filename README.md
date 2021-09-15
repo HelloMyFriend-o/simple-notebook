@@ -12,9 +12,9 @@ pip install -r requirements.txt
 ```
 4. Rename the file from ***.env(example)*** to ***.env***
 
-5. Generate Django SECRET_KEY (например тут: djecrety.ir) and fill in the corresponding variable in the file ***.env***
+5. Generate Django SECRET_KEY (например тут: djecrety.ir) and fill in the corresponding variable in ***.env***
 
-6. Create DB PostgreSQL and fill in the corresponding variables in the file ***.env***
+6. Create DB PostgreSQL and fill in the corresponding variables in ***.env***
 
 7. Go to folder:
 ```bash
